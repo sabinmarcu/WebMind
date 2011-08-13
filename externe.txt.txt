@@ -1,0 +1,10 @@
+node.js
+now.js
+mysql (cu innodb)
+node-mysql
+jquery
+jquery ui
+css3
+apache
+html5
+drawing library (svg stuff, line rendering)

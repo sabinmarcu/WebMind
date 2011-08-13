@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebMind</title>
+        <link type='text/css' rel='stylesheet' media='screen' href='css/all.css' />                              
+        <script type='text/javascript' src='js/jquery.min.js'></script>
+        <script type='text/javascript' src='js/jquery.ui.min.js'></script> 
+        <script type="text/javascript" src="http://10.4.1.22:1337/nowjs/now.js"></script> 
+        <script type="text/javascript"  src='js/jquery.svg.js'></script>   
+        <script type="text/javascript"  src='js/jquery.drawinglibrary.js'></script>
+        <script type="text/javascript"  src='js/script.js'></script>                      
+        <meta charset='UTF-8' />
+    </head>
+    <body>
+        <header>      
+            <a href='/' id='logolink'><div class='menui' id='logo'>WebMind</div></a>
+            <div id='doctitle'>Select a doc.</div>
+            <nav>
+                <div class='menui' id='edit'><img src='css/icons/pencil32.png' />
+                    <aside>
+                        <li>Undo</li>
+                        <li>Redo</li>
+                    </aside>
+                </div>      
+                <div class='menui' id='docs'><img src='css/icons/note32.png' />
+                    <aside> 
+                        <li>Doc1</li>
+                        <li>Doc2</li>
+                        <li>Doc3</li>
+                    </aside>
+                </div>
+                <div class='menui' id='new'><img src='css/icons/plus32.png' />
+                    <aside>
+                        <form method='POST' action='http://localhost:1337/addDocument' >
+                            <label for='doc'>The name of the doc</label>
+                            <input type='text' id='doc' name='doc' />
+                            <input type='submit' value="Add a new mindmap" />
+                        </form>
+                    </aside>
+                </div>
+                <div class='menui' id='login'><img src='css/icons/user32.png' /></div>
+            </nav>
+        </header>
+        <section>  
+            <div class='home'>
+                <img src='css/chimpy.png' />
+                <h1>Collaborative Mind Mapping</h1>
+                <h4>Chimpy says it works</h4>
+            </div>  
+        </section>
+        <footer>
+            <!-- Place this tag where you want the +1 button to render -->
+            <g:plusone size="small"></g:plusone>
+
+            <!-- Place this tag after the last plusone tag -->
+            <script type="text/javascript">
+                (function() {
+                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                    po.src = 'https://apis.google.com/js/plusone.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                })();
+            </script>
+            <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="vla_ve" data-related="sabinmarcu:Frontend voodoo.">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+        </footer>
+    </body>
+</html>

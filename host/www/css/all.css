@@ -1,0 +1,178 @@
+html, body{             
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+header *{
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+header{
+    display: block;        
+    max-height: 45px;
+    min-height: 45px;
+    box-shadow: 0 0 10px #444;
+    color: #444;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ddd), color-stop(1, #ccc));  
+    background: -moz-linear-gradient(-90deg, #ddd, #ccc);   
+    text-shadow: 0px 1px 1px #fff;  
+    font-weight: bolder;  
+    padding: 0 10px; 
+}
+header *{
+    display: inline-block;    
+}           
+header #doctitle, header #logo{           
+    font-size: 18pt;
+    line-height: 45px;            
+}      
+header #logo{
+    font-size: 16pt;
+    line-height:45px;   
+    padding: 0 5px;
+    margin: 0;
+}   
+header #doctitle{
+    margin: 5px 0;
+    padding: 0 0 0 15px;
+    border-left: solid 1px #444;
+    line-height: 35px;
+}
+header aside{     
+    position: absolute;       
+    top: -300%;
+    background:#aaa;         
+    right: 0;
+    border-top: none;
+    min-width: 200px;
+    color: #fff;
+    text-shadow: 0 0 1px #444;
+    font-size: 10pt;
+    z-index: 0;    
+    opacity: 0;
+}
+header aside > *{
+    display: block;
+    padding: 5px;
+    margin: 0 5px;
+    border-bottom: dotted 1px #fff;
+}
+nav{
+    float: right;
+}
+div.menui{
+    padding: 5px 10px;
+    position: relative;
+    z-index: 1;
+}
+div.menui:hover{          
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ccc), color-stop(1, #aaa));   
+    background: -moz-linear-gradient(-90deg, #ccc, #aaa);
+    box-shadow: 0 0 10px #fff;
+}
+div.menui:hover aside{
+    top: 100%;
+    opacity: 1;
+}
+input, textarea, label{
+    background: none;
+    border: none;    
+    color: #fff;
+    width: 100%;
+    border-radius: 3px;
+}
+input, textarea{         
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #ddd));                                                            background: -moz-linear-gradient(-90deg, #fff, #ddd);                                   
+    border: solid 1px #888;  
+    color: #444
+}
+header input{             
+    width: 90%
+}
+header label{
+    margin: 25px 0 2px 0 ;   
+    border: none;
+    font-size: 11pt;
+}
+input[type='submit']    {
+    margin: 10px 5px;
+    color: #444;
+    width: auto;
+    float: right;
+}
+section{
+    position:absolute;
+    top:45px;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
+article{
+    position: absolute;
+    top: 25px;
+    left: 75px;
+    height: auto;   
+    border: solid 1px #444;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ddd), color-stop(1, #ccc));
+    background: -moz-linear-gradient(-90deg, #ddd, #ccc);
+    border-radius: 25px;
+    color: #444;   
+    height: 75px;
+    width: 150px;  
+    padding: 5px 50px 5px 5px;           
+}
+article textarea{
+    background: none;   
+    border: none;             
+}    
+section .raster{        
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+section .raster > div{
+    z-index: -1;        
+}
+.home{
+    text-align:center;
+    padding-top: 150px
+}
+.buttons{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    opacity: 0;
+}
+.buttons:hover{
+    opacity: 1;
+}
+.buttons a{
+    display: block;
+    padding: 0 5px;
+    background: #fff;
+    border-radius: 2px;
+    color: #444;
+    cursor: pointer;
+}
+article.main{    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #dcc), color-stop(1, #baa));
+    background: -moz-linear-gradient(-90deg, #dcc, #baa);
+}
+.doclink{
+    background: none;
+    border: none;
+    color: #fff;
+    text-shadow: 0 1px 1px #222
+}
+#logolink{
+    color: #444;
+    text-decoration: none;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}

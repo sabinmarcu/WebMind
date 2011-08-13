@@ -1,0 +1,30 @@
+{
+  "name": "uglify-js",
+  "author": {
+    "name": "Mihai Bazon",
+    "email": "mihai.bazon@gmail.com",
+    "url": "http://mihai.bazon.net/blog"
+  },
+  "version": "1.0.3",
+  "main": "./uglify-js.js",
+  "bin": {
+    "uglifyjs": "./bin/uglifyjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mishoo/UglifyJS.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "_id": "uglify-js@1.0.3",
+  "engines": {
+    "node": "*"
+  },
+  "_engineSupported": true,
+  "_npmVersion": "1.0.6",
+  "_nodeVersion": "v0.4.9",
+  "_defaultsLoaded": true,
+  "dist": {
+    "shasum": "eac2c9251486d03eb31ccf85db3726e0683a520a"
+  }
+}

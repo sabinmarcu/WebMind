@@ -1,0 +1,62 @@
+{
+  "name": "redis",
+  "version": "0.6.0",
+  "description": "Redis client library",
+  "author": {
+    "name": "Matt Ranney",
+    "email": "mjr@ranney.com"
+  },
+  "contributors": [
+    {
+      "name": "Rick Olson"
+    },
+    {
+      "name": "Tim-Smart"
+    },
+    {
+      "name": "TJ Holowaychuk"
+    },
+    {
+      "name": "Orion Henry"
+    },
+    {
+      "name": "Hank Sims"
+    },
+    {
+      "name": "Aivo Paas"
+    },
+    {
+      "name": "Paul Carey"
+    },
+    {
+      "name": "Pieter Noordhuis"
+    },
+    {
+      "name": "Andy Ray"
+    },
+    {
+      "name": "Vladimir Dronnikov"
+    }
+  ],
+  "main": "./index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mranney/node_redis.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "_id": "redis@0.6.0",
+  "engines": {
+    "node": "*"
+  },
+  "_engineSupported": true,
+  "_npmVersion": "1.0.6",
+  "_nodeVersion": "v0.4.9",
+  "_defaultsLoaded": true,
+  "dist": {
+    "shasum": "1c2bfc049d1d8f5c9841d84e943cebdff9164fa0"
+  }
+}

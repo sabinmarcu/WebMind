@@ -1,0 +1,1166 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install', 'now' ]
+info using npm@1.0.6
+info using node@v0.4.9
+verbose config file /lib/.npmrc
+verbose config file /usr/etc/npmrc
+silly testEngine { name: 'mysql',
+silly testEngine   version: '0.9.1',
+silly testEngine   devDependencies: { gently: '>=0.8.0' },
+silly testEngine   main: './lib/mysql',
+silly testEngine   scripts: { test: 'make test' },
+silly testEngine   dependencies: {},
+silly testEngine   _id: 'mysql@0.9.1',
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /usr/bin/node_modules/mysql/package.json
+verbose loadDefaults mysql@0.9.1
+silly testEngine { name: 'openid',
+silly testEngine   description: 'OpenID 1.1/2.0 library for node.js',
+silly testEngine   keywords: 
+silly testEngine    [ 'openid',
+silly testEngine      'auth',
+silly testEngine      'authentication',
+silly testEngine      'identity',
+silly testEngine      'identifier',
+silly testEngine      'relying',
+silly testEngine      'party',
+silly testEngine      '1.1',
+silly testEngine      '2.0',
+silly testEngine      'library' ],
+silly testEngine   author: 
+silly testEngine    { name: 'Håvard Stranden',
+silly testEngine      email: 'havard.stranden@gmail.com',
+silly testEngine      url: 'http://ox.no' },
+silly testEngine   version: '0.3.1',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/havard/node-openid.git' },
+silly testEngine   bugs: { name: 'http://github.com/havard/node-openid/issues' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'http://github.com/havard/node-openid/raw/master/LICENSE' } ],
+silly testEngine   directories: { lib: './lib' },
+silly testEngine   main: './openid.js',
+silly testEngine   engines: [ 'node >= 0.4.1', node: ' >= 0.4.1' ],
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'openid@0.3.1',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /usr/bin/node_modules/openid/package.json
+verbose loadDefaults openid@0.3.1
+silly testEngine { name: 'socket.io',
+silly testEngine   version: '0.7.7',
+silly testEngine   description: 'Real-time apps made cross-browser & easy with a WebSocket-like API',
+silly testEngine   homepage: 'http://socket.io',
+silly testEngine   keywords: 
+silly testEngine    [ 'websocket',
+silly testEngine      'socket',
+silly testEngine      'realtime',
+silly testEngine      'socket.io',
+silly testEngine      'comet',
+silly testEngine      'ajax' ],
+silly testEngine   author: 
+silly testEngine    { name: 'Guillermo Rauch',
+silly testEngine      email: 'guillermo@learnboost.com' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' },
+silly testEngine      { name: 'Arnout Kazemier',
+silly testEngine        email: 'info@3rd-eden.com' },
+silly testEngine      { name: 'Vladimir Dronnikov',
+silly testEngine        email: 'dronnikov@gmail.com' } ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/LearnBoost/Socket.IO-node.git' },
+silly testEngine   dependencies: 
+silly testEngine    { 'socket.io-client': '0.7.4',
+silly testEngine      policyfile: '0.0.3',
+silly testEngine      redis: '0.6.0' },
+silly testEngine   devDependencies: { expresso: '0.7.7', should: '0.0.4' },
+silly testEngine   main: 'index',
+silly testEngine   engines: { node: '>= 0.4.0' },
+silly testEngine   _id: 'socket.io@0.7.7',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /usr/bin/node_modules/socket.io/package.json
+verbose loadDefaults socket.io@0.7.7
+silly testEngine { name: 'npm',
+silly testEngine   description: 'A package manager for node',
+silly testEngine   keywords: 
+silly testEngine    [ 'package manager',
+silly testEngine      'modules',
+silly testEngine      'install',
+silly testEngine      'package.json' ],
+silly testEngine   version: '1.0.6',
+silly testEngine   preferGlobal: true,
+silly testEngine   config: { publishtest: false },
+silly testEngine   homepage: 'http://npmjs.org/',
+silly testEngine   author: 
+silly testEngine    { name: 'Isaac Z. Schlueter',
+silly testEngine      email: 'i@izs.me',
+silly testEngine      url: 'http://blog.izs.me' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/isaacs/npm.git' },
+silly testEngine   bugs: 
+silly testEngine    { email: 'npm-@googlegroups.com',
+silly testEngine      url: 'http://github.com/isaacs/npm/issues' },
+silly testEngine   directories: 
+silly testEngine    { doc: './doc',
+silly testEngine      man: './man1',
+silly testEngine      lib: './lib',
+silly testEngine      bin: './bin' },
+silly testEngine   main: 'npm',
+silly testEngine   bin: { npm: './bin/npm.js' },
+silly testEngine   dependencies: 
+silly testEngine    { semver: '1',
+silly testEngine      abbrev: '1',
+silly testEngine      nopt: '1',
+silly testEngine      'node-uuid': '1.1' },
+silly testEngine   bundleDependencies: [ 'semver', 'abbrev', 'nopt' ],
+silly testEngine   devDependencies: { ronn: '' },
+silly testEngine   engines: { node: '0.4 || 0.5', npm: '1' },
+silly testEngine   scripts: { test: './test/run.sh', prepublish: 'make doc' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'http://github.com/isaacs/npm/raw/master/LICENSE' } ],
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Isaac Z. Schlueter',
+silly testEngine        email: 'i@izs.me',
+silly testEngine        url: 'http://blog.izs.me/' },
+silly testEngine      { name: 'Steve Steiner',
+silly testEngine        email: 'ssteinerX@gmail.com',
+silly testEngine        url: 'http://websaucesoftware.com/blog/' },
+silly testEngine      { name: 'Mikeal Rogers',
+silly testEngine        email: 'mikeal.rogers@gmail.com',
+silly testEngine        url: 'http://www.mikealrogers.com/' },
+silly testEngine      { name: 'Aaron Blohowiak',
+silly testEngine        email: 'aaron.blohowiak@gmail.com',
+silly testEngine        url: 'http://aaronblohowiak.com/' },
+silly testEngine      { name: 'Martyn Smith',
+silly testEngine        email: 'martyn@dollyfish.net.nz',
+silly testEngine        url: 'http://dollyfish.net.nz/' },
+silly testEngine      { name: 'Mathias Pettersson',
+silly testEngine        email: 'mape@mape.me',
+silly testEngine        url: 'http://mape.me/' },
+silly testEngine      { name: 'Brian Hammond',
+silly testEngine        email: 'brian@fictorial.com',
+silly testEngine        url: 'http://fictorial.com/' },
+silly testEngine      { name: 'Charlie Robbins',
+silly testEngine        email: 'charlie.robbins@gmail.com',
+silly testEngine        url: 'http://www.charlierobbins.com/' },
+silly testEngine      { name: 'Francisco Treacy',
+silly testEngine        email: 'francisco.treacy@gmail.com',
+silly testEngine        url: 'http://franciscotreacy.com/' },
+silly testEngine      { name: 'Cliffano Subagio',
+silly testEngine        email: 'cliffano@gmail.com',
+silly testEngine        url: 'http://blog.cliffano.com/' },
+silly testEngine      { name: 'Christian Eager',
+silly testEngine        email: 'christian.eager@nokia.com',
+silly testEngine        url: 'http://perpenduum.com' },
+silly testEngine      { name: 'Dav Glass',
+silly testEngine        email: 'davglass@gmail.com',
+silly testEngine        url: 'http://blog.davglass.com' },
+silly testEngine      { name: 'Alex K. Wolfe',
+silly testEngine        email: 'alexkwolfe@gmail.com' },
+silly testEngine      { name: 'James Sanders',
+silly testEngine        email: 'jimmyjazz14@gmail.com',
+silly testEngine        url: 'http://james-sanders.com/' },
+silly testEngine      { name: 'Reid Burke',
+silly testEngine        email: 'me@reidburke.com',
+silly testEngine        url: 'http://reidburke.com/' },
+silly testEngine      { name: 'Arlo Breault',
+silly testEngine        email: 'arlolra@gmail.com',
+silly testEngine        url: 'http://thoughtherder.com/' },
+silly testEngine      { name: 'Timo Derstappen',
+silly testEngine        email: 'teemow@gmail.com',
+silly testEngine        url: 'http://teemow.com' },
+silly testEngine      { name: 'Bradley Meck',
+silly testEngine        email: 'bradley.meck@gmail.com' },
+silly testEngine      { name: 'Bart Teeuwisse',
+silly testEngine        email: 'bart.teeuwisse@thecodemill.biz',
+silly testEngine        url: 'http://thecodemill.biz/' },
+silly testEngine      { name: 'Ben Noordhuis',
+silly testEngine        email: 'info@bnoordhuis.nl',
+silly testEngine        url: 'http://bnoordhuis.nl/' },
+silly testEngine      { name: 'Tor Valamo',
+silly testEngine        email: 'tor.valamo@gmail.com',
+silly testEngine        url: 'http://www.magnimedia.no/' },
+silly testEngine      { name: 'Whyme.Lyu',
+silly testEngine        email: '5longluna@gmail.com',
+silly testEngine        url: 'http://whyme.kuantu.com/' },
+silly testEngine      { name: 'Olivier Melcher',
+silly testEngine        email: 'olivier.melcher@gmail.com' },
+silly testEngine      { name: 'Tomaž Muraus',
+silly testEngine        email: 'kami@k5-storitve.net',
+silly testEngine        url: 'http://www.tomaz-muraus.info' },
+silly testEngine      { name: 'Evan Meagher',
+silly testEngine        email: 'evan.meagher@gmail.com',
+silly testEngine        url: 'http://evanmeagher.net/' },
+silly testEngine      { name: 'Orlando Vazquez',
+silly testEngine        email: 'ovazquez@gmail.com',
+silly testEngine        url: 'http://2wycked.net/' },
+silly testEngine      { name: 'George Miroshnykov',
+silly testEngine        email: 'gmiroshnykov@lohika.com' },
+silly testEngine      { name: 'Geoff Flarity',
+silly testEngine        url: 'http://ca.linkedin.com/pub/geoff-flarity/a/536/43a' },
+silly testEngine      { name: 'Pete Kruckenberg',
+silly testEngine        email: 'pete@kruckenberg.com' },
+silly testEngine      { name: 'Laurie Harper',
+silly testEngine        email: 'laurie@holoweb.net',
+silly testEngine        url: 'http://laurie.holoweb.net/' },
+silly testEngine      { name: 'Chris Wong',
+silly testEngine        email: 'chris@chriswongstudio.com' },
+silly testEngine      { name: 'Max Goodman',
+silly testEngine        email: 'c@chromacode.com',
+silly testEngine        url: 'http://chromacode.com/' } ],
+silly testEngine   _id: 'npm@1.0.6',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   man: 
+silly testEngine    [ 'man1/author.1',
+silly testEngine      'man1/adduser.1',
+silly testEngine      'man1/build.1',
+silly testEngine      'man1/cache.1',
+silly testEngine      'man1/bin.1',
+silly testEngine      'man1/changelog.1',
+silly testEngine      'man1/config.1',
+silly testEngine      'man1/deprecate.1',
+silly testEngine      'man1/developers.1',
+silly testEngine      'man1/docs.1',
+silly testEngine      'man1/edit.1',
+silly testEngine      'man1/coding-style.1',
+silly testEngine      'man1/explore.1',
+silly testEngine      'man1/faq.1',
+silly testEngine      'man1/folders.1',
+silly testEngine      'man1/completion.1',
+silly testEngine      'man1/global.1',
+silly testEngine      'man1/install.1',
+silly testEngine      'man1/find.1',
+silly testEngine      'man1/link.1',
+silly testEngine      'man1/json.1',
+silly testEngine      'man1/get.1',
+silly testEngine      'man1/ln.1',
+silly testEngine      'man1/list.1',
+silly testEngine      'man1/init.1',
+silly testEngine      'man1/npm.1',
+silly testEngine      'man1/owner.1',
+silly testEngine      'man1/prefix.1',
+silly testEngine      'man1/prune.1',
+silly testEngine      'man1/publish.1',
+silly testEngine      'man1/rebuild.1',
+silly testEngine      'man1/registry.1',
+silly testEngine      'man1/removing-npm.1',
+silly testEngine      'man1/ls.1',
+silly testEngine      'man1/restart.1',
+silly testEngine      'man1/root.1',
+silly testEngine      'man1/run-script.1',
+silly testEngine      'man1/scripts.1',
+silly testEngine      'man1/search.1',
+silly testEngine      'man1/start.1',
+silly testEngine      'man1/set.1',
+silly testEngine      'man1/outdated.1',
+silly testEngine      'man1/stop.1',
+silly testEngine      'man1/test.1',
+silly testEngine      'man1/uninstall.1',
+silly testEngine      'man1/tag.1',
+silly testEngine      'man1/update.1',
+silly testEngine      'man1/rm.1',
+silly testEngine      'man1/view.1',
+silly testEngine      'man1/whoami.1',
+silly testEngine      'man1/unpublish.1',
+silly testEngine      'man1/version.1' ] }
+verbose caching /usr/bin/node_modules/npm/package.json
+verbose loadDefaults npm@1.0.6
+verbose into /usr/bin [ 'now' ]
+verbose cache add [ 'now', null ]
+info addNamed [ 'now', '' ]
+verbose addNamed [ null, '' ]
+verbose GET now
+verbose raw, before any munging now
+verbose url resolving [ 'http://registry.npmjs.org/', './now' ]
+verbose url resolved http://registry.npmjs.org/now
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/now',
+verbose url parsed   pathname: '/now' }
+verbose etag "1HCK7T0XD54N7AC5WOFQUMAP7"
+verbose response http://registry.npmjs.org/now
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"1HCK7T0XD54N7AC5WOFQUMAP7"',
+silly get cb     date: 'Thu, 04 Aug 2011 15:24:29 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag now from cache
+verbose GET now/0.7.3
+verbose raw, before any munging now/0.7.3
+verbose url resolving [ 'http://registry.npmjs.org/', './now/0.7.3' ]
+verbose url resolved http://registry.npmjs.org/now/0.7.3
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/now/0.7.3',
+verbose url parsed   pathname: '/now/0.7.3' }
+verbose etag "1HCK7T0XD54N7AC5WOFQUMAP7"
+verbose response http://registry.npmjs.org/now/0.7.3
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"1HCK7T0XD54N7AC5WOFQUMAP7"',
+silly get cb     date: 'Thu, 04 Aug 2011 15:24:30 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag now/0.7.3 from cache
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8r-v83.1.8.25-cygwin-1.7.9(0.237/5/3)',
+verbose bin dist   { shasum: '297e180ae7b712a71330974aaa0497375ebfe144',
+verbose bin dist     tarball: 'http://registry.npmjs.org/now/-/now-0.7.3.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/now/-/now-0.7.3.tgz',
+verbose addRemoteTarball   '297e180ae7b712a71330974aaa0497375ebfe144' ]
+verbose mkdir done: /tmp/npm-1312471471389/1312471471389-0.6133549811784178 755
+info fetch http://registry.npmjs.org/now/-/now-0.7.3.tgz
+verbose fetch to /tmp/npm-1312471471389/1312471471389-0.6133549811784178/tmp.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 15169
+info shasum 297e180ae7b712a71330974aaa0497375ebfe144
+info shasum /tmp/npm-1312471471389/1312471471389-0.6133549811784178/tmp.tgz
+verbose mkdir done: /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/tmp/npm-1312471471389/1312471471389-0.6133549811784178/tmp.tgz"
+verbose success tar "-mvxpf" "-" "--no-same-owner" "-C" "/tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm"
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/.gitmodules
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/changelog.md
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/LICENSE
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/package.json~
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/readme.md
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/lib/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/lib/fileServer.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/lib/group.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/lib/handlers.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/lib/now.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/lib/nowUtil.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/lib/server.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/lib/scopeTable.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/lib/user.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/lib/proxy.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/lib/function.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/lib/client/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/lib/client/now.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/examples/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/examples/multiroomchat_example/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/examples/multiroomchat_example/multiroomchat.html
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/examples/multiroomchat_example/multiroomchat_server.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/examples/helloworld_example/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/examples/helloworld_example/helloworld.html
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/examples/helloworld_example/helloworld_server.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/examples/express_example/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/examples/express_example/app.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/examples/express_example/views/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/examples/express_example/views/chat.ejs
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/examples/express_example/views/index.ejs
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/examples/express_example/views/layout.ejs
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/public/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/public/best_practices.md
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/public/company.md
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/public/getting_started.md
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/public/user_manual.md
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/public/jobs.md
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/files.html
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/index.html
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/javascript/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/javascript/all.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/javascript/html5.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/css/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/css/all.css
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/css/handheld.css
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/css/screen.css
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/css/fonts/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/css/fonts/mplus-1m-bold-webfont.eot
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/css/fonts/mplus-1m-bold-webfont.svg
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/css/fonts/mplus-1m-bold-webfont.ttf
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/css/fonts/mplus-1m-regular-webfont.eot
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/css/fonts/mplus-1m-regular-webfont.svg
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/css/fonts/mplus-1m-regular-webfont.ttf
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/css/fonts/mplus-1m-regular-webfont.woff
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/css/fonts/mplus-1m-bold-webfont.woff
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/symbols/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/symbols/nowjs.html
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/symbols/Group#now.html
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/symbols/User#user.html
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/symbols/User.html
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/symbols/_global_.html
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/symbols/User#now.html
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/symbols/Group.html
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/symbols/src/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/symbols/src/flotype_now_lib_group.js.html
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/symbols/src/flotype_now_lib_now.js.html
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package/doc/jsdoc/symbols/src/flotype_now_lib_user.js.html
+verbose gunzed /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package
+verbose rm'ed /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/package
+verbose renamed [ '/tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/___package.npm/package',
+verbose renamed   '/tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/package' ]
+silly testEngine { author: { name: 'Flotype' },
+silly testEngine   name: 'now',
+silly testEngine   description: 'NowJS: An easy to use real-time RPC library',
+silly testEngine   version: '0.7.3',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/Flotype/now.git' },
+silly testEngine   main: 'lib/server.js',
+silly testEngine   engines: { node: '>= v0.4.0' },
+silly testEngine   dependencies: { 'socket.io': '>= 0.7.7', 'node-proxy': '0.4.0' },
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'now@0.7.3',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/package' }
+verbose caching /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/package/package.json
+verbose loadDefaults now@0.7.3
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/package/package.json
+verbose pack /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/package /lib/.npm/now/0.7.3/package.tgz
+verbose from cache /tmp/npm-1312471471389/1312471471389-0.6133549811784178/contents/package/package.json
+verbose mkdir'ed /lib/.npm/now/0.7.3
+verbose tar about to write tar and gzip it.
+silly tar args [ '-cvf',
+silly tar args   '-',
+silly tar args   'package/changelog.md',
+silly tar args   'package/LICENSE',
+silly tar args   'package/readme.md',
+silly tar args   'package/package.json',
+silly tar args   'package/package.json~',
+silly tar args   'package/.gitmodules',
+silly tar args   'package/lib/fileServer.js',
+silly tar args   'package/lib/handlers.js',
+silly tar args   'package/lib/now.js',
+silly tar args   'package/lib/group.js',
+silly tar args   'package/lib/scopeTable.js',
+silly tar args   'package/lib/server.js',
+silly tar args   'package/lib/function.js',
+silly tar args   'package/lib/user.js',
+silly tar args   'package/lib/nowUtil.js',
+silly tar args   'package/lib/proxy.js',
+silly tar args   'package/lib/client/now.js',
+silly tar args   'package/examples/helloworld_example/helloworld_server.js',
+silly tar args   'package/examples/helloworld_example/helloworld.html',
+silly tar args   'package/examples/multiroomchat_example/multiroomchat_server.js',
+silly tar args   'package/examples/multiroomchat_example/multiroomchat.html',
+silly tar args   'package/examples/express_example/app.js',
+silly tar args   'package/examples/express_example/views/index.ejs',
+silly tar args   'package/examples/express_example/views/layout.ejs',
+silly tar args   'package/examples/express_example/views/chat.ejs',
+silly tar args   'package/doc/public/best_practices.md',
+silly tar args   'package/doc/public/company.md',
+silly tar args   'package/doc/public/getting_started.md',
+silly tar args   'package/doc/public/jobs.md',
+silly tar args   'package/doc/public/user_manual.md',
+silly tar args   'package/doc/jsdoc/files.html',
+silly tar args   'package/doc/jsdoc/index.html',
+silly tar args   'package/doc/jsdoc/javascript/html5.js',
+silly tar args   'package/doc/jsdoc/javascript/all.js',
+silly tar args   'package/doc/jsdoc/symbols/Group.html',
+silly tar args   'package/doc/jsdoc/symbols/Group#now.html',
+silly tar args   'package/doc/jsdoc/symbols/nowjs.html',
+silly tar args   'package/doc/jsdoc/symbols/User#now.html',
+silly tar args   'package/doc/jsdoc/symbols/User#user.html',
+silly tar args   'package/doc/jsdoc/symbols/User.html',
+silly tar args   'package/doc/jsdoc/symbols/_global_.html',
+silly tar args   'package/doc/jsdoc/symbols/src/flotype_now_lib_now.js.html',
+silly tar args   'package/doc/jsdoc/symbols/src/flotype_now_lib_user.js.html',
+silly tar args   'package/doc/jsdoc/symbols/src/flotype_now_lib_group.js.html',
+silly tar args   'package/doc/jsdoc/css/handheld.css',
+silly tar args   'package/doc/jsdoc/css/screen.css',
+silly tar args   'package/doc/jsdoc/css/all.css',
+silly tar args   'package/doc/jsdoc/css/fonts/mplus-1m-bold-webfont.eot',
+silly tar args   'package/doc/jsdoc/css/fonts/mplus-1m-bold-webfont.svg',
+silly tar args   'package/doc/jsdoc/css/fonts/mplus-1m-bold-webfont.woff',
+silly tar args   'package/doc/jsdoc/css/fonts/mplus-1m-bold-webfont.ttf',
+silly tar args   'package/doc/jsdoc/css/fonts/mplus-1m-regular-webfont.eot',
+silly tar args   'package/doc/jsdoc/css/fonts/mplus-1m-regular-webfont.svg',
+silly tar args   'package/doc/jsdoc/css/fonts/mplus-1m-regular-webfont.ttf',
+silly tar args   'package/doc/jsdoc/css/fonts/mplus-1m-regular-webfont.woff' ]
+verbose success tar -cvf - <file list elided>
+verbose success gzip "--stdout"
+verbose mkdir done: /lib/.npm/now/0.7.3/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /lib/.npm/now/0.7.3/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/lib/.npm/now/0.7.3/package.tgz"
+verbose success tar "-mvxpf" "-" "--no-same-owner" "-C" "/lib/.npm/now/0.7.3/___package.npm"
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/.gitmodules
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/changelog.md
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/LICENSE
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/package.json
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/package.json~
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/readme.md
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/lib/
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/lib/fileServer.js
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/lib/function.js
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/lib/group.js
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/lib/handlers.js
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/lib/now.js
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/lib/nowUtil.js
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/lib/proxy.js
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/lib/server.js
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/lib/user.js
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/lib/scopeTable.js
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/lib/client/
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/lib/client/now.js
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/examples/
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/examples/helloworld_example/
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/examples/helloworld_example/helloworld_server.js
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/examples/helloworld_example/helloworld.html
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/examples/multiroomchat_example/
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/examples/multiroomchat_example/multiroomchat.html
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/examples/multiroomchat_example/multiroomchat_server.js
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/examples/express_example/
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/examples/express_example/app.js
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/examples/express_example/views/
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/examples/express_example/views/chat.ejs
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/examples/express_example/views/index.ejs
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/examples/express_example/views/layout.ejs
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/public/
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/public/best_practices.md
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/public/company.md
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/public/getting_started.md
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/public/user_manual.md
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/public/jobs.md
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/files.html
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/index.html
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/javascript/
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/javascript/all.js
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/javascript/html5.js
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/css/
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/css/all.css
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/css/handheld.css
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/css/screen.css
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/css/fonts/
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/css/fonts/mplus-1m-bold-webfont.eot
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/css/fonts/mplus-1m-bold-webfont.ttf
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/css/fonts/mplus-1m-bold-webfont.svg
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/css/fonts/mplus-1m-bold-webfont.woff
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/css/fonts/mplus-1m-regular-webfont.eot
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/css/fonts/mplus-1m-regular-webfont.svg
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/css/fonts/mplus-1m-regular-webfont.ttf
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/css/fonts/mplus-1m-regular-webfont.woff
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/symbols/
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/symbols/Group.html
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/symbols/nowjs.html
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/symbols/User#now.html
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/symbols/User#user.html
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/symbols/User.html
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/symbols/_global_.html
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/symbols/Group#now.html
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/symbols/src/
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/symbols/src/flotype_now_lib_group.js.html
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/symbols/src/flotype_now_lib_now.js.html
+silly asyncMap in gTP /lib/.npm/now/0.7.3/___package.npm/package/doc/jsdoc/symbols/src/flotype_now_lib_user.js.html
+verbose gunzed /lib/.npm/now/0.7.3/___package.npm/package
+verbose rm'ed /lib/.npm/now/0.7.3/package
+verbose renamed [ '/lib/.npm/now/0.7.3/___package.npm/package',
+verbose renamed   '/lib/.npm/now/0.7.3/package' ]
+silly testEngine { author: { name: 'Flotype' },
+silly testEngine   name: 'now',
+silly testEngine   description: 'NowJS: An easy to use real-time RPC library',
+silly testEngine   version: '0.7.3',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/Flotype/now.git' },
+silly testEngine   main: 'lib/server.js',
+silly testEngine   engines: { node: '>= v0.4.0' },
+silly testEngine   dependencies: { 'socket.io': '>= 0.7.7', 'node-proxy': '0.4.0' },
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'now@0.7.3',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: '03a772fbc4ad3ef638f06200bd4c1e0c95df2e77' },
+silly testEngine   scripts: {} }
+verbose caching /lib/.npm/now/0.7.3/package/package.json
+verbose loadDefaults now@0.7.3
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 13810
+info shasum 03a772fbc4ad3ef638f06200bd4c1e0c95df2e77
+info shasum /lib/.npm/now/0.7.3/package.tgz
+verbose from cache /lib/.npm/now/0.7.3/package/package.json
+verbose chmod /lib/.npm/now/0.7.3/package.json 644
+verbose chmod /lib/.npm/now/0.7.3/package.tgz 644
+silly resolved [ { author: { name: 'Flotype' },
+silly resolved     name: 'now',
+silly resolved     description: 'NowJS: An easy to use real-time RPC library',
+silly resolved     version: '0.7.3',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/Flotype/now.git' },
+silly resolved     main: 'lib/server.js',
+silly resolved     engines: { node: '>= v0.4.0' },
+silly resolved     dependencies: { 'socket.io': '>= 0.7.7', 'node-proxy': '0.4.0' },
+silly resolved     devDependencies: {},
+silly resolved     _id: 'now@0.7.3',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.6',
+silly resolved     _nodeVersion: 'v0.4.9',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '03a772fbc4ad3ef638f06200bd4c1e0c95df2e77' },
+silly resolved     scripts: {} } ]
+info into /usr/bin now@0.7.3
+info installOne now@0.7.3
+info unbuild /usr/bin/node_modules/now
+silly testEngine { author: { name: 'Flotype' },
+silly testEngine   name: 'now',
+silly testEngine   description: 'NowJS: An easy to use real-time RPC library',
+silly testEngine   version: '0.7.3',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/Flotype/now.git' },
+silly testEngine   main: 'lib/server.js',
+silly testEngine   engines: { node: '>= v0.4.0' },
+silly testEngine   dependencies: { 'socket.io': '>= 0.7.7', 'node-proxy': '0.4.0' },
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'now@0.7.3',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: '03a772fbc4ad3ef638f06200bd4c1e0c95df2e77' } }
+verbose caching /lib/.npm/now/0.7.3/package.json
+verbose mkdir done: /usr/bin/node_modules/___now.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /usr/bin/node_modules/now
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/lib/.npm/now/0.7.3/package.tgz"
+verbose success tar "-mvxpf" "-" "--no-same-owner" "-C" "/usr/bin/node_modules/___now.npm"
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/.gitmodules
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/changelog.md
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/package.json~
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/package.json
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/LICENSE
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/readme.md
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/lib/
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/lib/function.js
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/lib/fileServer.js
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/lib/handlers.js
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/lib/nowUtil.js
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/lib/proxy.js
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/lib/scopeTable.js
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/lib/group.js
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/lib/user.js
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/lib/now.js
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/lib/server.js
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/lib/client/
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/lib/client/now.js
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/examples/
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/examples/multiroomchat_example/
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/examples/multiroomchat_example/multiroomchat.html
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/examples/multiroomchat_example/multiroomchat_server.js
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/examples/helloworld_example/
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/examples/helloworld_example/helloworld.html
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/examples/helloworld_example/helloworld_server.js
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/examples/express_example/
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/examples/express_example/app.js
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/examples/express_example/views/
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/examples/express_example/views/layout.ejs
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/examples/express_example/views/index.ejs
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/examples/express_example/views/chat.ejs
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/public/
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/public/company.md
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/public/jobs.md
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/public/best_practices.md
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/public/user_manual.md
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/public/getting_started.md
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/files.html
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/index.html
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/javascript/
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/javascript/all.js
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/javascript/html5.js
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/symbols/
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/symbols/Group#now.html
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/symbols/nowjs.html
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/symbols/Group.html
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/symbols/User.html
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/symbols/User#user.html
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/symbols/_global_.html
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/symbols/User#now.html
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/symbols/src/
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/symbols/src/flotype_now_lib_now.js.html
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/symbols/src/flotype_now_lib_user.js.html
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/symbols/src/flotype_now_lib_group.js.html
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/css/
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/css/all.css
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/css/screen.css
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/css/handheld.css
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/css/fonts/
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/css/fonts/mplus-1m-bold-webfont.svg
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/css/fonts/mplus-1m-bold-webfont.ttf
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/css/fonts/mplus-1m-regular-webfont.svg
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/css/fonts/mplus-1m-regular-webfont.eot
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/css/fonts/mplus-1m-bold-webfont.eot
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/css/fonts/mplus-1m-regular-webfont.woff
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/css/fonts/mplus-1m-regular-webfont.ttf
+silly asyncMap in gTP /usr/bin/node_modules/___now.npm/package/doc/jsdoc/css/fonts/mplus-1m-bold-webfont.woff
+verbose gunzed /usr/bin/node_modules/___now.npm/package
+verbose rm'ed /usr/bin/node_modules/now
+verbose renamed [ '/usr/bin/node_modules/___now.npm/package',
+verbose renamed   '/usr/bin/node_modules/now' ]
+silly testEngine { author: { name: 'Flotype' },
+silly testEngine   name: 'now',
+silly testEngine   description: 'NowJS: An easy to use real-time RPC library',
+silly testEngine   version: '0.7.3',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/Flotype/now.git' },
+silly testEngine   main: 'lib/server.js',
+silly testEngine   engines: { node: '>= v0.4.0' },
+silly testEngine   dependencies: { 'socket.io': '>= 0.7.7', 'node-proxy': '0.4.0' },
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'now@0.7.3',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /usr/bin/node_modules/now/package.json
+verbose loadDefaults now@0.7.3
+info preinstall now@0.7.3
+verbose from cache /usr/bin/node_modules/now/package.json
+verbose into /usr/bin/node_modules/now [ 'node-proxy@0.4.0' ]
+verbose cache add [ 'node-proxy@0.4.0', null ]
+info addNamed [ 'node-proxy', '0.4.0' ]
+verbose addNamed [ '0.4.0', '0.4.0' ]
+verbose GET node-proxy/0.4.0
+verbose raw, before any munging node-proxy/0.4.0
+verbose url resolving [ 'http://registry.npmjs.org/', './node-proxy/0.4.0' ]
+verbose url resolved http://registry.npmjs.org/node-proxy/0.4.0
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/node-proxy/0.4.0',
+verbose url parsed   pathname: '/node-proxy/0.4.0' }
+verbose etag "E35NGEZ8X7PH655XVEJSQO858"
+verbose response http://registry.npmjs.org/node-proxy/0.4.0
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"E35NGEZ8X7PH655XVEJSQO858"',
+silly get cb     date: 'Thu, 04 Aug 2011 15:24:37 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag node-proxy/0.4.0 from cache
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8r-v83.1.8.25-cygwin-1.7.9(0.237/5/3)',
+verbose bin dist   { shasum: '9fe5eb7a284c46d2eb4847be16987c1547ca353a',
+verbose bin dist     tarball: 'http://registry.npmjs.org/node-proxy/-/node-proxy-0.4.0.tgz',
+verbose bin dist     bin: 
+verbose bin dist      { '0.4-sunos-5.11': 
+verbose bin dist         { shasum: '48bcd3708e2982a6ec186ff8789cfa5622ea572c',
+verbose bin dist           tarball: 'http://registry.npmjs.org/node-proxy/-/node-proxy-0.4.0-0.4-sunos-5.11.tgz' } } } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/node-proxy/-/node-proxy-0.4.0.tgz',
+verbose addRemoteTarball   '9fe5eb7a284c46d2eb4847be16987c1547ca353a' ]
+verbose mkdir done: /tmp/npm-1312471471389/1312471478182-0.4209979777224362 755
+info fetch http://registry.npmjs.org/node-proxy/-/node-proxy-0.4.0.tgz
+verbose fetch to /tmp/npm-1312471471389/1312471478182-0.4209979777224362/tmp.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 19287
+info shasum 9fe5eb7a284c46d2eb4847be16987c1547ca353a
+info shasum /tmp/npm-1312471471389/1312471478182-0.4209979777224362/tmp.tgz
+verbose mkdir done: /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/tmp/npm-1312471471389/1312471478182-0.4209979777224362/tmp.tgz"
+verbose success tar "-mvxpf" "-" "--no-same-owner" "-C" "/tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm"
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/.gitignore
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/install.sh
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/LICENSE.txt
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/Makefile
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/README.txt
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/test/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/test/test.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/lib/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/lib/node-proxy.node
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/lib/.gitignore
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/src/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/src/node-proxy.cc
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/src/node-proxy.h
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/src/wscript
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/src/build/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/src/build/.wafpickle-7
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/src/build/config.log
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/src/build/default/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/src/build/default/node-proxy_1.o
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/src/build/c4che/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/src/build/c4che/build.config.py
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/src/build/c4che/default.cache.py
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/examples/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/examples/autoload-namespace/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/examples/autoload-namespace/autoload-namespace.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/examples/autoload-namespace/autoload-test.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/examples/autoload-namespace/org/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/examples/autoload-namespace/org/w3c/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/examples/autoload-namespace/org/w3c/DOM/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/examples/autoload-namespace/org/w3c/DOM/Document.js
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/examples/autoload-namespace/org/w3c/DOM/Document/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/examples/autoload-namespace/org/w3c/DOM/Document/String/
+silly asyncMap in gTP /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package/examples/autoload-namespace/org/w3c/DOM/Document/String/Test.js
+verbose gunzed /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package
+verbose rm'ed /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/package
+verbose renamed [ '/tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/___package.npm/package',
+verbose renamed   '/tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/package' ]
+silly testEngine { name: 'node-proxy',
+silly testEngine   version: '0.4.0',
+silly testEngine   description: 'A module for node implementing __noSuchMethod__-type handlers, such as object overloading, as part of the Harmony Catch-All Proxies specification found at http://wiki.ecmascript.org/doku.php?id=harmony:proxies',
+silly testEngine   keywords: 
+silly testEngine    [ 'interceptor',
+silly testEngine      'proxy',
+silly testEngine      'overload',
+silly testEngine      '__noSuchMethod__' ],
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Sam Shull',
+silly testEngine        email: 'http://www.google.com/profiles/brickysam26' } ],
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'http://www.opensource.org/licenses/mit-license.html' } ],
+silly testEngine   bugs: { url: 'http://github.com/samshull/node-proxy/issues' },
+silly testEngine   implements: [ 'http://wiki.ecmascript.org/doku.php?id=harmony:proxies' ],
+silly testEngine   engines: { node: '>=0.1.103' },
+silly testEngine   repositories: 
+silly testEngine    [ { type: 'git',
+silly testEngine        url: 'http://github.com/samshull/node-proxy' } ],
+silly testEngine   main: './lib/node-proxy.node',
+silly testEngine   scripts: { install: 'make' },
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'node-proxy@0.4.0',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/package' }
+verbose caching /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/package/package.json
+verbose loadDefaults node-proxy@0.4.0
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/package/package.json
+verbose pack /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/package /lib/.npm/node-proxy/0.4.0/package.tgz
+verbose from cache /tmp/npm-1312471471389/1312471478182-0.4209979777224362/contents/package/package.json
+verbose mkdir'ed /lib/.npm/node-proxy/0.4.0
+verbose tar about to write tar and gzip it.
+silly tar args [ '-cvf',
+silly tar args   '-',
+silly tar args   'package/.gitignore',
+silly tar args   'package/LICENSE.txt',
+silly tar args   'package/install.sh',
+silly tar args   'package/package.json',
+silly tar args   'package/Makefile',
+silly tar args   'package/README.txt',
+silly tar args   'package/test/test.js',
+silly tar args   'package/src/wscript',
+silly tar args   'package/src/node-proxy.h',
+silly tar args   'package/src/node-proxy.cc',
+silly tar args   'package/lib/node-proxy.node',
+silly tar args   'package/lib/.gitignore',
+silly tar args   'package/examples/autoload-namespace/autoload-namespace.js',
+silly tar args   'package/examples/autoload-namespace/autoload-test.js',
+silly tar args   'package/examples/autoload-namespace/org/w3c/DOM/Document.js',
+silly tar args   'package/examples/autoload-namespace/org/w3c/DOM/Document/String/Test.js' ]
+verbose success tar -cvf - <file list elided>
+verbose success gzip "--stdout"
+verbose mkdir done: /lib/.npm/node-proxy/0.4.0/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /lib/.npm/node-proxy/0.4.0/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/lib/.npm/node-proxy/0.4.0/package.tgz"
+verbose success tar "-mvxpf" "-" "--no-same-owner" "-C" "/lib/.npm/node-proxy/0.4.0/___package.npm"
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/.gitignore
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/install.sh
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/Makefile
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/package.json
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/LICENSE.txt
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/README.txt
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/lib/
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/lib/.gitignore
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/lib/node-proxy.node
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/src/
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/src/node-proxy.cc
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/src/node-proxy.h
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/src/wscript
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/test/
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/test/test.js
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/examples/
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/examples/autoload-namespace/
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/examples/autoload-namespace/autoload-namespace.js
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/examples/autoload-namespace/autoload-test.js
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/examples/autoload-namespace/org/
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/examples/autoload-namespace/org/w3c/
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/examples/autoload-namespace/org/w3c/DOM/
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/examples/autoload-namespace/org/w3c/DOM/Document.js
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/examples/autoload-namespace/org/w3c/DOM/Document/
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/examples/autoload-namespace/org/w3c/DOM/Document/String/
+silly asyncMap in gTP /lib/.npm/node-proxy/0.4.0/___package.npm/package/examples/autoload-namespace/org/w3c/DOM/Document/String/Test.js
+verbose gunzed /lib/.npm/node-proxy/0.4.0/___package.npm/package
+verbose rm'ed /lib/.npm/node-proxy/0.4.0/package
+verbose renamed [ '/lib/.npm/node-proxy/0.4.0/___package.npm/package',
+verbose renamed   '/lib/.npm/node-proxy/0.4.0/package' ]
+silly testEngine { name: 'node-proxy',
+silly testEngine   version: '0.4.0',
+silly testEngine   description: 'A module for node implementing __noSuchMethod__-type handlers, such as object overloading, as part of the Harmony Catch-All Proxies specification found at http://wiki.ecmascript.org/doku.php?id=harmony:proxies',
+silly testEngine   keywords: 
+silly testEngine    [ 'interceptor',
+silly testEngine      'proxy',
+silly testEngine      'overload',
+silly testEngine      '__noSuchMethod__' ],
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Sam Shull',
+silly testEngine        email: 'http://www.google.com/profiles/brickysam26' } ],
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'http://www.opensource.org/licenses/mit-license.html' } ],
+silly testEngine   bugs: { url: 'http://github.com/samshull/node-proxy/issues' },
+silly testEngine   implements: [ 'http://wiki.ecmascript.org/doku.php?id=harmony:proxies' ],
+silly testEngine   engines: { node: '>=0.1.103' },
+silly testEngine   repositories: 
+silly testEngine    [ { type: 'git',
+silly testEngine        url: 'http://github.com/samshull/node-proxy' } ],
+silly testEngine   main: './lib/node-proxy.node',
+silly testEngine   scripts: { install: 'make' },
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'node-proxy@0.4.0',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: 'b861a262310077af44ca8fa2d1ca96ebbd98b21c' } }
+verbose caching /lib/.npm/node-proxy/0.4.0/package/package.json
+verbose loadDefaults node-proxy@0.4.0
+silly updated sha bytes 40955
+info shasum b861a262310077af44ca8fa2d1ca96ebbd98b21c
+info shasum /lib/.npm/node-proxy/0.4.0/package.tgz
+verbose from cache /lib/.npm/node-proxy/0.4.0/package/package.json
+verbose chmod /lib/.npm/node-proxy/0.4.0/package.json 644
+verbose chmod /lib/.npm/node-proxy/0.4.0/package.tgz 644
+silly resolved [ { name: 'node-proxy',
+silly resolved     version: '0.4.0',
+silly resolved     description: 'A module for node implementing __noSuchMethod__-type handlers, such as object overloading, as part of the Harmony Catch-All Proxies specification found at http://wiki.ecmascript.org/doku.php?id=harmony:proxies',
+silly resolved     keywords: 
+silly resolved      [ 'interceptor',
+silly resolved        'proxy',
+silly resolved        'overload',
+silly resolved        '__noSuchMethod__' ],
+silly resolved     contributors: 
+silly resolved      [ { name: 'Sam Shull',
+silly resolved          email: 'http://www.google.com/profiles/brickysam26' } ],
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'http://www.opensource.org/licenses/mit-license.html' } ],
+silly resolved     bugs: { url: 'http://github.com/samshull/node-proxy/issues' },
+silly resolved     implements: [ 'http://wiki.ecmascript.org/doku.php?id=harmony:proxies' ],
+silly resolved     engines: { node: '>=0.1.103' },
+silly resolved     repositories: 
+silly resolved      [ { type: 'git',
+silly resolved          url: 'http://github.com/samshull/node-proxy' } ],
+silly resolved     main: './lib/node-proxy.node',
+silly resolved     scripts: { install: 'make' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     _id: 'node-proxy@0.4.0',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.6',
+silly resolved     _nodeVersion: 'v0.4.9',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'b861a262310077af44ca8fa2d1ca96ebbd98b21c' } } ]
+info into /usr/bin/node_modules/now node-proxy@0.4.0
+info installOne node-proxy@0.4.0
+info unbuild /usr/bin/node_modules/now/node_modules/node-proxy
+silly testEngine { name: 'node-proxy',
+silly testEngine   version: '0.4.0',
+silly testEngine   description: 'A module for node implementing __noSuchMethod__-type handlers, such as object overloading, as part of the Harmony Catch-All Proxies specification found at http://wiki.ecmascript.org/doku.php?id=harmony:proxies',
+silly testEngine   keywords: 
+silly testEngine    [ 'interceptor',
+silly testEngine      'proxy',
+silly testEngine      'overload',
+silly testEngine      '__noSuchMethod__' ],
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Sam Shull',
+silly testEngine        email: 'http://www.google.com/profiles/brickysam26' } ],
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'http://www.opensource.org/licenses/mit-license.html' } ],
+silly testEngine   bugs: { url: 'http://github.com/samshull/node-proxy/issues' },
+silly testEngine   implements: [ 'http://wiki.ecmascript.org/doku.php?id=harmony:proxies' ],
+silly testEngine   engines: { node: '>=0.1.103' },
+silly testEngine   repositories: 
+silly testEngine    [ { type: 'git',
+silly testEngine        url: 'http://github.com/samshull/node-proxy' } ],
+silly testEngine   main: './lib/node-proxy.node',
+silly testEngine   scripts: { install: 'make' },
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'node-proxy@0.4.0',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: 'b861a262310077af44ca8fa2d1ca96ebbd98b21c' } }
+verbose caching /lib/.npm/node-proxy/0.4.0/package.json
+verbose mkdir done: /usr/bin/node_modules/now/node_modules/___node-proxy.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /usr/bin/node_modules/now/node_modules/node-proxy
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/lib/.npm/node-proxy/0.4.0/package.tgz"
+verbose success tar "-mvxpf" "-" "--no-same-owner" "-C" "/usr/bin/node_modules/now/node_modules/___node-proxy.npm"
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/.gitignore
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/install.sh
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/LICENSE.txt
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/Makefile
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/package.json
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/README.txt
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/src/
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/src/node-proxy.h
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/src/node-proxy.cc
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/src/wscript
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/test/
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/test/test.js
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/lib/
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/lib/node-proxy.node
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/lib/.gitignore
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/examples/
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/examples/autoload-namespace/
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/examples/autoload-namespace/autoload-test.js
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/examples/autoload-namespace/autoload-namespace.js
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/examples/autoload-namespace/org/
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/examples/autoload-namespace/org/w3c/
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/examples/autoload-namespace/org/w3c/DOM/
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/examples/autoload-namespace/org/w3c/DOM/Document.js
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/examples/autoload-namespace/org/w3c/DOM/Document/
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/examples/autoload-namespace/org/w3c/DOM/Document/String/
+silly asyncMap in gTP /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package/examples/autoload-namespace/org/w3c/DOM/Document/String/Test.js
+verbose gunzed /usr/bin/node_modules/now/node_modules/___node-proxy.npm/package
+verbose rm'ed /usr/bin/node_modules/now/node_modules/node-proxy
+verbose renamed [ '/usr/bin/node_modules/now/node_modules/___node-proxy.npm/package',
+verbose renamed   '/usr/bin/node_modules/now/node_modules/node-proxy' ]
+silly testEngine { name: 'node-proxy',
+silly testEngine   version: '0.4.0',
+silly testEngine   description: 'A module for node implementing __noSuchMethod__-type handlers, such as object overloading, as part of the Harmony Catch-All Proxies specification found at http://wiki.ecmascript.org/doku.php?id=harmony:proxies',
+silly testEngine   keywords: 
+silly testEngine    [ 'interceptor',
+silly testEngine      'proxy',
+silly testEngine      'overload',
+silly testEngine      '__noSuchMethod__' ],
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Sam Shull',
+silly testEngine        email: 'http://www.google.com/profiles/brickysam26' } ],
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'http://www.opensource.org/licenses/mit-license.html' } ],
+silly testEngine   bugs: { url: 'http://github.com/samshull/node-proxy/issues' },
+silly testEngine   implements: [ 'http://wiki.ecmascript.org/doku.php?id=harmony:proxies' ],
+silly testEngine   engines: { node: '>=0.1.103' },
+silly testEngine   repositories: 
+silly testEngine    [ { type: 'git',
+silly testEngine        url: 'http://github.com/samshull/node-proxy' } ],
+silly testEngine   main: './lib/node-proxy.node',
+silly testEngine   scripts: { install: 'make' },
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'node-proxy@0.4.0',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /usr/bin/node_modules/now/node_modules/node-proxy/package.json
+verbose loadDefaults node-proxy@0.4.0
+info preinstall node-proxy@0.4.0
+verbose from cache /usr/bin/node_modules/now/node_modules/node-proxy/package.json
+verbose into /usr/bin/node_modules/now/node_modules/node-proxy []
+silly resolved []
+verbose about to build /usr/bin/node_modules/now/node_modules/node-proxy
+info build /usr/bin/node_modules/now/node_modules/node-proxy
+verbose from cache /usr/bin/node_modules/now/node_modules/node-proxy/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/usr/bin/node_modules/now/node_modules' ]
+info linkStuff node-proxy@0.4.0
+verbose linkBins node-proxy@0.4.0
+verbose linkMans node-proxy@0.4.0
+verbose rebuildBundles node-proxy@0.4.0
+info install node-proxy@0.4.0
+verbose unsafe-perm in lifecycle true
+silly exec sh "-c" "make"
+info node-proxy@0.4.0 Failed to exec install script
+ERR! error installing node-proxy@0.4.0 Error: node-proxy@0.4.0 install: `make`
+ERR! error installing node-proxy@0.4.0 `sh "-c" "make"` failed with 127
+ERR! error installing node-proxy@0.4.0     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/exec.js:49:20)
+ERR! error installing node-proxy@0.4.0     at ChildProcess.emit (events.js:67:17)
+ERR! error installing node-proxy@0.4.0     at ChildProcess.onexit (child_process.js:192:12)
+info unbuild /usr/bin/node_modules/now/node_modules/node-proxy
+verbose from cache /usr/bin/node_modules/now/node_modules/node-proxy/package.json
+info preuninstall node-proxy@0.4.0
+info uninstall node-proxy@0.4.0
+verbose unbuild node-proxy@0.4.0 [ false,
+verbose unbuild node-proxy@0.4.0   '/usr/lib/node_modules',
+verbose unbuild node-proxy@0.4.0   '/usr/bin/node_modules/now/node_modules' ]
+info postuninstall node-proxy@0.4.0
+verbose installOne cb node-proxy@0.4.0
+verbose about to build /usr/bin/node_modules/now
+ERR! error installing now@0.7.3 Error: node-proxy@0.4.0 install: `make`
+ERR! error installing now@0.7.3 `sh "-c" "make"` failed with 127
+ERR! error installing now@0.7.3     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/exec.js:49:20)
+ERR! error installing now@0.7.3     at ChildProcess.emit (events.js:67:17)
+ERR! error installing now@0.7.3     at ChildProcess.onexit (child_process.js:192:12)
+info unbuild /usr/bin/node_modules/now
+verbose from cache /usr/bin/node_modules/now/package.json
+info preuninstall now@0.7.3
+info uninstall now@0.7.3
+verbose unbuild now@0.7.3 [ false,
+verbose unbuild now@0.7.3   '/usr/lib/node_modules',
+verbose unbuild now@0.7.3   '/usr/bin/node_modules' ]
+info postuninstall now@0.7.3
+verbose installOne cb now@0.7.3
+ERR! node-proxy@0.4.0 install: `make`
+ERR! `sh "-c" "make"` failed with 127
+ERR! 
+ERR! Failed at the node-proxy@0.4.0 install script.
+ERR! This is most likely a problem with the node-proxy package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     make
+ERR! You can get their info via:
+ERR!     npm owner ls node-proxy
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System CYGWIN_NT-5.1 1.7.9(0.237/5/3)
+ERR! command "node" "/usr/bin/npm" "install" "now"
+verbose exit [ 1, true ]

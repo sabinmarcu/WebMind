@@ -1,0 +1,29 @@
+{
+  "author": {
+    "name": "Flotype"
+  },
+  "name": "now",
+  "description": "NowJS: An easy to use real-time RPC library",
+  "version": "0.7.3",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Flotype/now.git"
+  },
+  "main": "lib/server.js",
+  "engines": {
+    "node": ">= v0.4.0"
+  },
+  "dependencies": {
+    "socket.io": ">= 0.7.7",
+    "node-proxy": "0.4.0"
+  },
+  "devDependencies": {},
+  "_id": "now@0.7.3",
+  "_engineSupported": true,
+  "_npmVersion": "1.0.6",
+  "_nodeVersion": "v0.4.9",
+  "_defaultsLoaded": true,
+  "dist": {
+    "shasum": "03a772fbc4ad3ef638f06200bd4c1e0c95df2e77"
+  }
+}
