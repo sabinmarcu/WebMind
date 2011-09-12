@@ -1,6 +1,9 @@
 var SQLClient = require('mysql').Client;
 var mysql = new SQLClient();
 var qs = require('querystring');
+var fs = require("fs");
+var nstatic = require("node-static")
+var staticserver = new nstatic.Server("./www")
 
 
 mysql.user = 'root';
@@ -40,11 +43,13 @@ var server = require('http').createServer(function(req, res){
             }
         });
     }
-res.writeHead(302, {'Location': 'http://localhost/'});
-res.end();
-
 });
-server.listen(1337, "10.4.1.22"); 
+server.listen(1337);
+var fileserv = require("http").createServer(function(req, res){
+	req.addListener("end", function(){
+		staticserver.serve(req, res);
+	})
+}).listen(80)	
 var now = require("now");
 var everyone = now.initialize(server);
 now.options.socketio['log level'] = 1;
